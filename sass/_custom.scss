@@ -1,0 +1,81 @@
+.navbar{
+    margin-bottom: 0px;
+    a{
+        color : set-text($main-color) !important;
+    }
+    .fa{
+        font-size: 18px;
+    }
+}
+.showcase{
+    background: url(../img/image.jpg) no-repeat 0 -100px;
+    height: 600px;
+    padding: 30px 0;
+    
+    h1{
+        font-size: 60px;
+    }
+    .container{
+        background: white;
+        opacity: 0.8;
+        padding: 20px 30px 30px 30px; 
+        border-radius: 10px;
+    }
+}
+.section-a{
+    padding: 30px 0;
+    text-align: center;
+    background: $main-color;
+    color : white;
+    font-weight: 100px;
+    .fa{
+        font-size: $icon-size;
+    }
+}
+.section-b{
+    background: #e6ebf1;
+    padding: 30px 0;
+    img{
+        width: 100%;
+    } 
+}
+.panel-heading h4{
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.section-c{
+    padding : 60px 0;
+    text-align: center;
+    background: $main-color;
+    color: white;
+    .btn-primary{
+        background: darken($main-color, 10%);
+    }
+}
+footer{
+    padding: 30px 0;
+     background: #e6ebf1;
+     color: black;
+     text-align: center;
+}
+.list-group li{
+    &:first-child{
+        background: $main-color;
+        color: white;
+    }
+}
+.title-bar{
+    background: url(../img/image.jpg) no-repeat 0 -300px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid $main-color;
+
+}
+.main{
+    margin-top: 30px;
+}
